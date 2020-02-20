@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>news_select</title>
+
+  <!------------------------- css ------------------------->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head><!------------------------- head ------------------------->
+
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="header-logo"><img src="img/logo.png" alt="株式会社iSara"></h1>
+      <nav class="header-list sp-none">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">ENTRY</a></li>
+        </ul>
+      </nav>
+      <div class="l-drawer">
+        <input class="l-drawer__checkbox" id="drawerCheckbox" type="checkbox" >
+        <label class="l-drawer__icon" for="drawerCheckbox">
+          <span class="l-drawer__icon-parts"></span>
+        </label>
+        <label class="l-drawer__overlay" for="drawerCheckbox"></label>
+        
+        <nav class="l-drawer__menu">
+          <ul>
+            <li class="l-drawer__item">
+              <a class="l-drawer__item-inner" href="/">ABOUT</a>
+            </li>
+            <li class="l-drawer__item">
+              <a class="l-drawer__item-inner" href="/">NEWS</a>
+            </li>
+            <li class="l-drawer__item">
+              <a class="l-drawer__item-inner" href="/">ENTRY</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header><!------------------------- header ------------------------->
+
+
+  <div class="bar">
+    <h2 class="section-title">NEWS</h2>
+  </div><!------------------ bar --------------------->
+
+
+  <main class="news-select-main">
+    <div class="breadcrumb-nav">HOME ＞ NEWS ＞第３回上野区ベンチャー企業交流会を行いました。</div>
+
+    <div class="news-select-inner">
+      <h2 class="article-title">第３回上野区ベンチャー企業交流会を行いました。</h2>
+      <time class="article-time">2018年◯月◯日</time>
+      <span class="article-category">カテゴリ</span>
+      <figure><img src="img/office-umeda.jpg" alt="企業交流会"></figure>
+      <figcaption>
+        <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+        <h2>ここにh2が入ります。</h2>
+        <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+        <h3>ここにh3が入ります。</h3>
+        <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+        <h4>ここにh４が入ります。</h4>
+        <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。</p>
+        <h5>ここにh５が入ります。</h5>
+        <ul>
+          <li>番号なしリスト１</li>
+          <li>番号なしリスト２</li>
+          <li>番号なしリスト３</li>
+          <li>番号なしリスト４</li>
+        </ul>
+        <ol>
+          <li>番号付きリスト１</li>
+          <li>番号付きリスト２</li>
+          <li>番号付きリスト３</li>
+          <li>番号付きリスト４</li>
+        </ol>
+        <a href="#">ここにリンクが入ります。</a>
+        <strong>ここに太字が入ります。</strong>
+      </figcaption>
+
+      <div class="article-select">
+        <a href="#" class="select-article">前の記事へ</a>
+        <a href="#" class="select-article">次の記事へ</a>
+      </div>
+    </div><!------------------------- .inner ------------------------->  
+
+    <address class="contacts">
+      <a href="#" class="contact">
+        <img src="img/footer-tell.png" alt="電話連絡">
+        <div class="info">
+          <p class="tel-contact">お電話でのお問い合わせ</p>
+          <p class="tel-number">0123-456-7890</p>
+        </div>
+      </a>
+      <a href="#" class="contact">
+        <img src="img/footer-mail.png" alt="メール連絡">
+        <p class="mail-contact">Webページからの<br>お問い合わせ</p>
+      </a>
+    </address><!------------------------- .contacts ------------------------->
+  </main><!------------------------- main ------------------------->
+
+  <footer>
+    <div class="footer-inner">
+      <div class="flex-column">
+        <div class="flex-row">
+          <div class="footer-logo">
+            <img src="img/logo.png" alt="フッターロゴ">
+            <address>東京都〇〇区〇〇1234-567　<br>〇〇ビル３階</address>
+          </div>
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-line"></i></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <small>Copyright 2020 iSara</small>
+        </div>
+      </div>
+    </div>
+  </footer><!------------------------- footer ------------------------->
+</body><!------------------------- body ------------------------->
+</html><!------------------------- html ------------------------->

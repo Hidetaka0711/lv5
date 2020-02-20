@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>entry</title>
+
+  <!------------------------- css ------------------------->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head><!------------------------- head ------------------------->
+
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="header-logo"><img src="img/logo.png" alt="株式会社iSara"></h1>
+      <nav class="header-list sp-none">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">ENTRY</a></li>
+        </ul>
+      </nav>
+      <div class="l-drawer">
+        <input class="l-drawer__checkbox" id="drawerCheckbox" type="checkbox" >
+        <label class="l-drawer__icon" for="drawerCheckbox">
+          <span class="l-drawer__icon-parts"></span>
+        </label>
+        <label class="l-drawer__overlay" for="drawerCheckbox"></label>
+        
+        <nav class="l-drawer__menu">
+          <ul>
+            <li class="l-drawer__item">
+              <a class="l-drawer__item-inner" href="/">ABOUT</a>
+            </li>
+            <li class="l-drawer__item">
+              <a class="l-drawer__item-inner" href="/">NEWS</a>
+            </li>
+            <li class="l-drawer__item">
+              <a class="l-drawer__item-inner" href="/">ENTRY</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header><!------------------------- header ------------------------->
+
+
+  <div class="bar">
+    <h2 class="section-title">ENTRY</h2>
+  </div><!------------------ bar --------------------->
+
+
+  <main class="entry-main">
+    <div class="breadcrumb-nav">HOME ＞ ENTRY</div>
+
+    <section class="entry-form">
+      <h2 class="entry-explain">
+        詳しい資料をお送りしております。まずはお気軽にお問い合わせください。
+      </h2>
+      <form>
+        <div class="entry-section">
+          <label class="entry-info" for="name">お名前</label>
+          <span>必須</span>
+          <input type="text" id="name" name="name" placeholder="山田　太郎">
+        </div>
+        <div class="entry-section">
+          <label class="entry-info" for="e-mail">メールアドレス</label>
+          <span>必須</span>
+          <input type="e-mail" id="e-mail" name="e-mail" placeholder="example@example.com">
+        </div>
+
+        <div class="entry-section">
+          <label class="entry-info" for="radio">ご希望の業種</label>
+          <span>必須</span>
+          <label class="radio">
+            <input type="radio" name="contact" value="技術職">技術職
+          </label>
+          <label class="radio">
+            <input type="radio" name="contact" value="デザイン職">デザイン職
+          </label>
+          <label class="radio">
+            <input type="radio" name="contact" value="サービス企画職">サービス企画職
+          </label>
+          <label class="radio">
+            <input type="radio" name="contact" value="企画営業職">企画営業職
+          </label>
+        </div>
+
+        <div class="entry-section">
+          <label class="entry-info" for="message">備考欄</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+
+        <a href="#"><input type="submit" class="button" value="送信"></a>
+      </form> 
+    </section><!------------------------- .entry-form ------------------------->  
+
+    <address class="contacts">
+      <a href="#" class="contact">
+        <img src="img/footer-tell.png" alt="電話連絡">
+        <div class="info">
+          <p class="tel-contact">お電話でのお問い合わせ</p>
+          <p class="tel-number">0123-456-7890</p>
+        </div>
+      </a>
+      <a href="#" class="contact">
+        <img src="img/footer-mail.png" alt="メール連絡">
+        <p class="mail-contact">Webページからの<br>お問い合わせ</p>
+      </a>
+    </address><!------------------------- .contacts ------------------------->
+  </main><!------------------------- main ------------------------->
+
+  <footer>
+    <div class="footer-inner">
+      <div class="flex-column">
+        <div class="flex-row">
+          <div class="footer-logo">
+            <img src="img/logo.png" alt="フッターロゴ">
+            <address>東京都〇〇区〇〇1234-567　<br>〇〇ビル３階</address>
+          </div>
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-line"></i></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <small>Copyright 2020 iSara</small>
+        </div>
+      </div>
+    </div>
+  </footer><!------------------------- footer ------------------------->
+</body><!------------------------- body ------------------------->
+</html><!------------------------- html ------------------------->
